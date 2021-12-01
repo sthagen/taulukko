@@ -1,7 +1,7 @@
 [tool.pyflow]
 name = "taulukko"
 py_version = "3.8"
-version = "2021.12.1"
+version = "2021.12.2"
 authors = ["Stefan Hagen <stefan@hagen.link>"]
 
 [tool.pyflow.scripts]

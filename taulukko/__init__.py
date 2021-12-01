@@ -1,2 +1,2 @@
 """Meeting, rendezvous, confluence (Finnish kohtaaminen) mark up, down, and up again."""
-__version__ = '2021.12.1'
+__version__ = '2021.12.2'

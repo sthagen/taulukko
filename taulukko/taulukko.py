@@ -56,7 +56,11 @@ def main(argv: Union[List[str], None] = None) -> int:
 
     out_root = MD_ROOT
     print(f'extracting html tables from ({inp if inp else STDIN}) into markdown file below {out_root}')
-    loader = ptr.TableFileLoader(inp)
+    try:
+        loader = ptr.TableFileLoader(inp)
+    except ptr.error.InvalidFilePathError as err:
+        print(f'html file does not exist? detail: {err}')
+        return 1
     writer = ptw.MarkdownTableWriter(margin=1)
     index_path = out_root / 'collected-tables.md'
     index_path.parent.mkdir(parents=True, exist_ok=True)

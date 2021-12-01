@@ -50,7 +50,7 @@ $ cat taulukko-md/collected-tables.md
 
 ```console
 $ taulukko version
-Table (Finnish Taulukko) glued together to transform into hands-free living. version 2021.12.1
+Table (Finnish Taulukko) glued together to transform into hands-free living. version 2021.12.2
 ```
 
 ## General help

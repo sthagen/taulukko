@@ -42,7 +42,7 @@ def callback(
 
 @app.command('extract')
 def extract(
-    source: str = typer.Argument(ko.STDIN),
+    source: str = typer.Argument(tau.STDIN),
     inp: str = typer.Option(
         '',
         '-i',
@@ -55,9 +55,9 @@ def extract(
     Translate from zip file containing a tree of html and media files to a folder with markdown.
     """
     command = 'extract'
-    incoming = inp if inp else (source if source != ko.STDIN else '')
+    incoming = inp if inp else (source if source != tau.STDIN else '')
     action = [command, str(incoming)]
-    return sys.exit(ko.main(action))
+    return sys.exit(tau.main(action))
 
 
 @app.command('version')
@@ -73,4 +73,4 @@ def app_version() -> None:
 def main(argv: Union[List[str], None] = None) -> int:
     """Delegate processing to functional module."""
     argv = sys.argv[1:] if argv is None else argv
-    return ko.main(argv)
+    return tau.main(argv)

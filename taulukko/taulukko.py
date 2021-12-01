@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # pylint: disable=expression-not-assigned,line-too-long
 """Table (Finnish Taulukko) glued together to transform into hands-free living. API."""
-import io
 import os
 import pathlib
 import sys
@@ -64,10 +63,11 @@ def main(argv: Union[List[str], None] = None) -> int:
     writer = ptw.MarkdownTableWriter(margin=1)
     index_path = out_root / 'collected-tables.md'
     index_path.parent.mkdir(parents=True, exist_ok=True)
-    writer.stream = io.open(index_path, 'w', encoding=loader.encoding)
-    for table_data in loader.load():
-        writer.from_tabledata(table_data)
-        writer.write_table()
+    with open(index_path, 'w', encoding=loader.encoding) as handle:
+        writer.stream = handle
+        for table_data in loader.load():
+            writer.from_tabledata(table_data)
+            writer.write_table()
 
     print(f'markdown tree is below ({out_root})')
 

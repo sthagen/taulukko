@@ -134,3 +134,4 @@ dmypy.json
 taulukko-md/
 local_publi.sh
 local_*
+.vscode/

@@ -1,3 +1,3 @@
-pytablereader>=0.31.1
-pytablewriter>=0.64.1
-typer>=0.4.0
+pytablereader==0.31.3
+pytablewriter==0.64.2
+typer==0.4.1

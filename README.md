@@ -28,13 +28,13 @@ $ pip install taulukko
 ## Extract tables from local HTML file
 
 ```console
-$ taulukko extract tests/fixtures/basic/2x2-table-w-th.html
-extracting html tables from (tests/fixtures/basic/2x2-table-w-th.html) into markdown file below taulukko-md
+$ taulukko extract test/fixtures/basic/2x2-table-w-th.html
+extracting html tables from (test/fixtures/basic/2x2-table-w-th.html) into markdown file below taulukko-md
 markdown tree is below (taulukko-md)
 ```
 
 ```console
-$ cat tests/fixtures/basic/2x2-table-w-th.html
+$ cat test/fixtures/basic/2x2-table-w-th.html
 <html><head><title>test</test></head><body><table><tr><th>a</th><th>b</th></tr><tr><td>c</td><td>d</td></tr></table></body></html>
 ```
 

@@ -9,7 +9,7 @@ import taulukko.cli as cli
 
 
 def test_main_legacy_ok(capsys):
-    inp = str(pathlib.Path('tests', 'fixtures', 'basic', '2x2-table-w-th.html'))
+    inp = str(pathlib.Path('test', 'fixtures', 'basic', '2x2-table-w-th.html'))
     assert cli.main(['extract', inp]) == 0
     out, err = capsys.readouterr()
     assert 'extracting html tables from' in out.lower()
@@ -26,7 +26,7 @@ def test_version_ok(capsys):
 
 
 def test_extract_ok(capsys):
-    in_path = pathlib.Path('tests', 'fixtures', 'basic', '2x2-table-w-th.html')
+    in_path = pathlib.Path('test', 'fixtures', 'basic', '2x2-table-w-th.html')
     with pytest.raises(SystemExit) as exec_info:
         cli.extract(source=in_path, inp=in_path)
         assert exec_info.value.code == 0

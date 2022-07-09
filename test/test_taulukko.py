@@ -6,7 +6,7 @@ import taulukko.taulukko as tau
 
 
 def test_ko_main():
-    inp = str(pathlib.Path('tests', 'fixtures', 'basic', '2x2-table-w-th.html'))
+    inp = str(pathlib.Path('test', 'fixtures', 'basic', '2x2-table-w-th.html'))
     assert tau.main(['extract', inp]) == 0
 
 

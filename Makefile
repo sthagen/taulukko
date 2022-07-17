@@ -63,3 +63,4 @@ clean:
 	@rm -f *.log
 	@rm -fr taulukko-md/
 	python setup.py clean
+	@rm -fr site/*

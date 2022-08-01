@@ -2,16 +2,19 @@
 
 Table (Finnish Taulukko) glued together to transform into hands-free living.
 
-[![license](https://img.shields.io/github/license/sthagen/taulukko.svg?style=flat)](https://github.com/sthagen/taulukko/blob/default/LICENSE)
+[License: MIT](https://git.sr.ht/~sthagen/taulukko/tree/default/item/LICENSE)
+
 [![version](https://img.shields.io/pypi/v/taulukko.svg?style=flat)](https://pypi.python.org/pypi/taulukko/)
 [![downloads](https://pepy.tech/badge/taulukko/month)](https://pepy.tech/project/taulukko)
 [![wheel](https://img.shields.io/pypi/wheel/taulukko.svg?style=flat)](https://pypi.python.org/pypi/taulukko/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/taulukko.svg?style=flat)](https://pypi.python.org/pypi/taulukko/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/taulukko.svg?style=flat)](https://pypi.python.org/pypi/taulukko/)
 
-## Status
+## Bug Tracker
 
-Experimental.
+Feature requests and bug reports are bested entered in the [todos of taulukko](https://todo.sr.ht/~sthagen/taulukko).
 
-**Note**: The default branch is default.
+## Primary Source repository
 
+The primary source repository of [taulukko is at sourcehut](https://git.sr.ht/~sthagen/taulukko)
+a collection of tools useful for software development.

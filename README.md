@@ -16,7 +16,7 @@ User and developer [documentation of taulukko](https://codes.dilettant.life/docs
 
 ## Bug Tracker
 
-Feature requests and bug reports are bested entered in the [todos of taulukko](https://todo.sr.ht/~sthagen/taulukko).
+Feature requests and bug reports are best entered in the [todos of taulukko](https://todo.sr.ht/~sthagen/taulukko).
 
 ## Primary Source repository
 

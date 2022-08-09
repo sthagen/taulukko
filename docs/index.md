@@ -12,7 +12,7 @@ Table (Finnish Taulukko) glued together to transform into hands-free living.
 
 ## Bug Tracker
 
-Feature requests and bug reports are bested entered in the [todos of taulukko](https://todo.sr.ht/~sthagen/taulukko).
+Feature requests and bug reports are best entered in the [todos of taulukko](https://todo.sr.ht/~sthagen/taulukko).
 
 ## Primary Source repository
 

@@ -1,0 +1,93 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:4a1ac5d6-ca8b-4893-aaab-cfd18055b5a4",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2022-10-25T19:40:32.446364+00:00",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "cyclonedx-bom",
+        "version": "3.6.3"
+      },
+      {
+        "vendor": "CycloneDX",
+        "name": "cyclonedx-python-lib",
+        "version": "2.7.1",
+        "externalReferences": [
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/actions",
+            "type": "build-system"
+          },
+          {
+            "url": "https://pypi.org/project/cyclonedx-python-lib/",
+            "type": "distribution"
+          },
+          {
+            "url": "https://cyclonedx.github.io/cyclonedx-python-lib/",
+            "type": "documentation"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/issues",
+            "type": "issue-tracker"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/LICENSE",
+            "type": "license"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/CHANGELOG.md",
+            "type": "release-notes"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib",
+            "type": "vcs"
+          },
+          {
+            "url": "https://cyclonedx.org",
+            "type": "website"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "4cbac446-0792-43bf-806a-0cc6c731348b",
+      "name": "pytablereader",
+      "version": "0.31.3",
+      "purl": "pkg:pypi/pytablereader@0.31.3"
+    },
+    {
+      "type": "library",
+      "bom-ref": "e607c5fc-aaff-4ae2-8f62-dc6d952eed34",
+      "name": "pytablewriter",
+      "version": "0.64.2",
+      "purl": "pkg:pypi/pytablewriter@0.64.2"
+    },
+    {
+      "type": "library",
+      "bom-ref": "b0d8311b-5dbf-43a9-82ca-6991b93fa25e",
+      "name": "typer",
+      "version": "0.6.1",
+      "purl": "pkg:pypi/typer@0.6.1"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "4cbac446-0792-43bf-806a-0cc6c731348b",
+      "dependsOn": []
+    },
+    {
+      "ref": "e607c5fc-aaff-4ae2-8f62-dc6d952eed34",
+      "dependsOn": []
+    },
+    {
+      "ref": "b0d8311b-5dbf-43a9-82ca-6991b93fa25e",
+      "dependsOn": []
+    }
+  ]
+}

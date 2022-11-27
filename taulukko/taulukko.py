@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-# pylint: disable=expression-not-assigned,line-too-long
 """Table (Finnish Taulukko) glued together to transform into hands-free living. API."""
 import os
 import pathlib

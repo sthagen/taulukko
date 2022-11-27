@@ -29,7 +29,7 @@ def verify_request(argv: Optional[List[str]]) -> Tuple[int, str, List[str]]:
 
     command, inp = argv
 
-    if command not in ('extract'):
+    if command not in ('extract',):
         return 2, 'received unknown command', ['']
 
     if inp:

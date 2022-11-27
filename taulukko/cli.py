@@ -1,6 +1,5 @@
 """Commandline API gateway for taulukko."""
 import sys
-from typing import List, Union
 
 import typer
 
@@ -63,11 +62,3 @@ def app_version() -> None:
     Display the taulukko version and exit
     """
     callback(True)
-
-
-# pylint: disable=expression-not-assigned
-# @app.command()
-def main(argv: Union[List[str], None] = None) -> int:
-    """Delegate processing to functional module."""
-    argv = sys.argv[1:] if argv is None else argv
-    return tau.main(argv)

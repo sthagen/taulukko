@@ -1,6 +1,6 @@
 [project]
 name = "taulukko"
-version = "2022.10.25"
+version = "2022.11.27"
 description = "Table (Finnish Taulukko) glued together to transform into hands-free living."
 readme = "README.md"
 authors = [{ name = "Stefan Hagen", email = "stefan@hagen.link" }]

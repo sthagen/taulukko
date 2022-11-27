@@ -1,5 +1,9 @@
 # Change History
 
+## 2022.11.27
+
+* Bumped dependencies and simplified the code base
+
 ## 2021.12.2
 
 * Hot fix release adding requirements to metadata (fixes #4)

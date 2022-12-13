@@ -1,8 +1,10 @@
-# taulukko
+# Taulukko
 
 Table (Finnish Taulukko) glued together to transform into hands-free living.
 
 [License: MIT](https://git.sr.ht/~sthagen/taulukko/tree/default/item/LICENSE)
+
+Third party dependencies are documented in the folder [third-party](third-party/README.md).
 
 [![version](https://img.shields.io/pypi/v/taulukko.svg?style=flat)](https://pypi.python.org/pypi/taulukko/)
 [![downloads](https://pepy.tech/badge/taulukko/month)](https://pepy.tech/project/taulukko)

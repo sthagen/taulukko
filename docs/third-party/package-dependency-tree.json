@@ -35,7 +35,7 @@
                             {
                                 "key": "chardet",
                                 "package_name": "chardet",
-                                "installed_version": "5.0.0",
+                                "installed_version": "5.1.0",
                                 "required_version": ">=3.0.4,<6",
                                 "dependencies": []
                             }
@@ -56,7 +56,7 @@
                                     {
                                         "key": "chardet",
                                         "package_name": "chardet",
-                                        "installed_version": "5.0.0",
+                                        "installed_version": "5.1.0",
                                         "required_version": ">=3.0.4,<6",
                                         "dependencies": []
                                     }
@@ -69,13 +69,13 @@
             {
                 "key": "jsonschema",
                 "package_name": "jsonschema",
-                "installed_version": "4.17.1",
+                "installed_version": "4.17.3",
                 "required_version": ">=2.5.1,<5",
                 "dependencies": [
                     {
                         "key": "attrs",
                         "package_name": "attrs",
-                        "installed_version": "22.1.0",
+                        "installed_version": "22.2.0",
                         "required_version": ">=17.4.0",
                         "dependencies": []
                     },
@@ -97,7 +97,7 @@
                     {
                         "key": "chardet",
                         "package_name": "chardet",
-                        "installed_version": "5.0.0",
+                        "installed_version": "5.1.0",
                         "required_version": ">=3.0.4,<6",
                         "dependencies": []
                     }
@@ -106,7 +106,7 @@
             {
                 "key": "path",
                 "package_name": "path",
-                "installed_version": "16.5.0",
+                "installed_version": "16.6.0",
                 "required_version": ">=13,<17",
                 "dependencies": []
             },
@@ -145,7 +145,7 @@
                                     {
                                         "key": "chardet",
                                         "package_name": "chardet",
-                                        "installed_version": "5.0.0",
+                                        "installed_version": "5.1.0",
                                         "required_version": ">=3.0.4,<6",
                                         "dependencies": []
                                     }
@@ -166,7 +166,7 @@
                                             {
                                                 "key": "chardet",
                                                 "package_name": "chardet",
-                                                "installed_version": "5.0.0",
+                                                "installed_version": "5.1.0",
                                                 "required_version": ">=3.0.4,<6",
                                                 "dependencies": []
                                             }
@@ -191,7 +191,7 @@
                                     {
                                         "key": "chardet",
                                         "package_name": "chardet",
-                                        "installed_version": "5.0.0",
+                                        "installed_version": "5.1.0",
                                         "required_version": ">=3.0.4,<6",
                                         "dependencies": []
                                     }
@@ -216,7 +216,7 @@
                             {
                                 "key": "chardet",
                                 "package_name": "chardet",
-                                "installed_version": "5.0.0",
+                                "installed_version": "5.1.0",
                                 "required_version": ">=3.0.4,<6",
                                 "dependencies": []
                             }
@@ -247,7 +247,7 @@
                             {
                                 "key": "chardet",
                                 "package_name": "chardet",
-                                "installed_version": "5.0.0",
+                                "installed_version": "5.1.0",
                                 "required_version": ">=3.0.4,<6",
                                 "dependencies": []
                             }
@@ -268,7 +268,7 @@
                                     {
                                         "key": "chardet",
                                         "package_name": "chardet",
-                                        "installed_version": "5.0.0",
+                                        "installed_version": "5.1.0",
                                         "required_version": ">=3.0.4,<6",
                                         "dependencies": []
                                     }
@@ -287,7 +287,7 @@
                     {
                         "key": "chardet",
                         "package_name": "chardet",
-                        "installed_version": "5.0.0",
+                        "installed_version": "5.1.0",
                         "required_version": ">=3.0.4,<6",
                         "dependencies": []
                     }
@@ -328,7 +328,7 @@
                                     {
                                         "key": "chardet",
                                         "package_name": "chardet",
-                                        "installed_version": "5.0.0",
+                                        "installed_version": "5.1.0",
                                         "required_version": ">=3.0.4,<6",
                                         "dependencies": []
                                     }
@@ -349,7 +349,7 @@
                                             {
                                                 "key": "chardet",
                                                 "package_name": "chardet",
-                                                "installed_version": "5.0.0",
+                                                "installed_version": "5.1.0",
                                                 "required_version": ">=3.0.4,<6",
                                                 "dependencies": []
                                             }
@@ -374,7 +374,7 @@
                                     {
                                         "key": "chardet",
                                         "package_name": "chardet",
-                                        "installed_version": "5.0.0",
+                                        "installed_version": "5.1.0",
                                         "required_version": ">=3.0.4,<6",
                                         "dependencies": []
                                     }
@@ -406,7 +406,7 @@
                             {
                                 "key": "chardet",
                                 "package_name": "chardet",
-                                "installed_version": "5.0.0",
+                                "installed_version": "5.1.0",
                                 "required_version": ">=3.0.4,<6",
                                 "dependencies": []
                             }

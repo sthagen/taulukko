@@ -1,0 +1,17 @@
+---
+packages:
+- attrs
+- beautifulsoup4
+- chardet
+- click
+- DataProperty
+- jsonschema
+- mbstrdecoder
+- path
+- pathvalidate
+- pyrsistent
+- setuptools
+- soupsieve
+- tabledata
+- tcolorpy
+- typepy

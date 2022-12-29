@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/taulukko/blob/default/sbom.json) with SHA256 checksum ([86e1a39a ...](https://git.sr.ht/~sthagen/taulukko/blob/default/sbom.json.sha256 "sha256:86e1a39a66f86a99ab21b95dfb9ddd0d972e022d74c8219689731b8a5563269e")).
-<!--[[[end]]] (checksum: 9f50c5a43836fb25dd84b422a0a0459b)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/taulukko/blob/default/sbom.json) with SHA256 checksum ([13fd1c32 ...](https://git.sr.ht/~sthagen/taulukko/blob/default/sbom.json.sha256 "sha256:13fd1c326b335f394f471040b04db8ee4eeebe8517150eaec294c2c8474be571")).
+<!--[[[end]]] (checksum: 6c2764ae239fa1869a96e947c472a9f4)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -20,10 +20,24 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 ### Indirect Dependencies
 
 <!--[[[fill indirect_dependencies_table()]]]-->
-| Name                                          | Version                                        | License     | Author         | Description (from packaging data)         |
-|:----------------------------------------------|:-----------------------------------------------|:------------|:---------------|:------------------------------------------|
-| [click](https://palletsprojects.com/p/click/) | [8.1.3](https://pypi.org/project/click/8.1.3/) | BSD License | Armin Ronacher | Composable command line interface toolkit |
-<!--[[[end]]] (checksum: dc3a866a7aa3332404bde3da87727cb9)-->
+| Name                                                                               | Version                                                        | License                                                 | Author                     | Description (from packaging data)                                                                           |
+|:-----------------------------------------------------------------------------------|:---------------------------------------------------------------|:--------------------------------------------------------|:---------------------------|:------------------------------------------------------------------------------------------------------------|
+| [DataProperty](https://github.com/thombashi/DataProperty)                          | [0.55.0](https://pypi.org/project/DataProperty/0.55.0/)        | MIT License                                             | Tsuyoshi Hombashi          | Python library for extract property from data.                                                              |
+| [attrs](https://www.attrs.org/)                                                    | [22.2.0](https://pypi.org/project/attrs/22.2.0/)               | MIT License                                             | Hynek Schlawack            | Classes Without Boilerplate                                                                                 |
+| [beautifulsoup4](https://www.crummy.com/software/BeautifulSoup/bs4/)               | [4.11.1](https://pypi.org/project/beautifulsoup4/4.11.1/)      | MIT License                                             | Leonard Richardson         | Screen-scraping library                                                                                     |
+| [chardet](https://github.com/chardet/chardet)                                      | [5.1.0](https://pypi.org/project/chardet/5.1.0/)               | GNU Lesser General Public License v2 or later (LGPLv2+) | Mark Pilgrim               | Universal encoding detector for Python 3                                                                    |
+| [click](https://palletsprojects.com/p/click/)                                      | [8.1.3](https://pypi.org/project/click/8.1.3/)                 | BSD License                                             | Armin Ronacher             | Composable command line interface toolkit                                                                   |
+| [jsonschema](https://github.com/python-jsonschema/jsonschema/blob/main/README.rst) | [4.17.3](https://pypi.org/project/jsonschema/4.17.3/)          | MIT License                                             | Julian Berman              | An implementation of JSON Schema validation for Python                                                      |
+| [mbstrdecoder](https://github.com/thombashi/mbstrdecoder)                          | [1.1.1](https://pypi.org/project/mbstrdecoder/1.1.1/)          | MIT License                                             | Tsuyoshi Hombashi          | multi-byte character string decoder                                                                         |
+| [path](https://github.com/jaraco/path)                                             | [16.6.0](https://pypi.org/project/path/16.6.0/)                | MIT License                                             | Jason Orendorff            | A module wrapper for os.path                                                                                |
+| [pathvalidate](https://github.com/thombashi/pathvalidate)                          | [2.5.2](https://pypi.org/project/pathvalidate/2.5.2/)          | MIT License                                             | Tsuyoshi Hombashi          | pathvalidate is a Python library to sanitize/validate a string such as filenames/file-paths/etc.            |
+| [pyrsistent](https://github.com/tobgu/pyrsistent/)                                 | [0.19.2](https://pypi.org/project/pyrsistent/0.19.2/)          | MIT License                                             | Tobias Gustafsson          | Persistent/Functional/Immutable data structures                                                             |
+| [setuptools](https://github.com/pypa/setuptools)                                   | [65.6.3](https://pypi.org/project/setuptools/65.6.3/)          | MIT License                                             | Python Packaging Authority | Easily download, build, install, upgrade, and uninstall Python packages                                     |
+| [soupsieve](https://github.com/facelessuser/soupsieve/blob/main/README.md)         | [2.3.2.post1](https://pypi.org/project/soupsieve/2.3.2.post1/) | MIT License                                             | Isaac Muse                 | A modern CSS selector implementation for Beautiful Soup.                                                    |
+| [tabledata](https://github.com/thombashi/tabledata)                                | [1.3.0](https://pypi.org/project/tabledata/1.3.0/)             | MIT License                                             | Tsuyoshi Hombashi          | tabledata is a Python library to represent tabular data. Used for pytablewriter/pytablereader/SimpleSQLite. |
+| [tcolorpy](https://github.com/thombashi/tcolorpy)                                  | [0.1.2](https://pypi.org/project/tcolorpy/0.1.2/)              | MIT License                                             | Tsuyoshi Hombashi          | tcolopy is a Python library to apply true color for terminal text.                                          |
+| [typepy](https://github.com/thombashi/typepy)                                      | [1.3.0](https://pypi.org/project/typepy/1.3.0/)                | MIT License                                             | Tsuyoshi Hombashi          | typepy is a Python library for variable type checker/validator/converter at a run time.                     |
+<!--[[[end]]] (checksum: e1de3381c9c9f93e207de62b32ef33d3)-->
 
 ## Dependency Tree(s)
 

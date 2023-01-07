@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:8333bd20-e5c9-4255-b1b3-2736bc5fd776",
+  "serialNumber": "urn:uuid:bbbb7f21-85b6-4dd4-88f1-55d149b38474",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-12-29T16:48:19.067976+00:00",
+    "timestamp": "2023-01-07T18:09:18.070930+00:00",
     "tools": [
       {
         "vendor": "CycloneDX",
@@ -56,21 +56,21 @@
   "components": [
     {
       "type": "library",
-      "bom-ref": "c1cbbaab-a7a3-451c-b2a4-19796591b6a0",
+      "bom-ref": "1746d799-3bb9-41d1-8bc2-6ad819a3ae23",
       "name": "pytablereader",
       "version": "0.31.3",
       "purl": "pkg:pypi/pytablereader@0.31.3"
     },
     {
       "type": "library",
-      "bom-ref": "74da9378-ce9e-40ee-a5a7-912fe46714a4",
+      "bom-ref": "7e4c588a-4def-4471-9c75-845d3d5bb96c",
       "name": "pytablewriter",
       "version": "0.64.2",
       "purl": "pkg:pypi/pytablewriter@0.64.2"
     },
     {
       "type": "library",
-      "bom-ref": "b09766a4-406b-4ae7-9520-7d816e85814c",
+      "bom-ref": "a6d136ba-7283-46fc-b284-273f9178cd07",
       "name": "typer",
       "version": "0.7.0",
       "purl": "pkg:pypi/typer@0.7.0"
@@ -78,15 +78,15 @@
   ],
   "dependencies": [
     {
-      "ref": "c1cbbaab-a7a3-451c-b2a4-19796591b6a0",
+      "ref": "1746d799-3bb9-41d1-8bc2-6ad819a3ae23",
       "dependsOn": []
     },
     {
-      "ref": "74da9378-ce9e-40ee-a5a7-912fe46714a4",
+      "ref": "7e4c588a-4def-4471-9c75-845d3d5bb96c",
       "dependsOn": []
     },
     {
-      "ref": "b09766a4-406b-4ae7-9520-7d816e85814c",
+      "ref": "a6d136ba-7283-46fc-b284-273f9178cd07",
       "dependsOn": []
     }
   ]

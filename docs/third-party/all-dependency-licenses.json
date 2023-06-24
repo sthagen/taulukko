@@ -12,16 +12,16 @@
     "Version": "0.55.0"
   },
   {
-    "Author": "Hynek Schlawack",
+    "Author": "Hynek Schlawack <hs@ox.cx>",
     "Description": "Classes Without Boilerplate",
     "License": "MIT License",
-    "LicenseFile": "/Users/ruth/.pyenv/versions/3.10.9/envs/taulukko-3-10-9/lib/python3.10/site-packages/attrs-22.2.0.dist-info/LICENSE",
+    "LicenseFile": "/Users/ruth/.pyenv/versions/3.10.9/envs/taulukko-3-10-9/lib/python3.10/site-packages/attrs-23.1.0.dist-info/licenses/LICENSE",
     "LicenseText": "The MIT License (MIT)\n\nCopyright (c) 2015 Hynek Schlawack and the attrs contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
     "Name": "attrs",
     "NoticeFile": "UNKNOWN",
     "NoticeText": "UNKNOWN",
-    "URL": "https://www.attrs.org/",
-    "Version": "22.2.0"
+    "URL": "https://www.attrs.org/en/stable/changelog.html",
+    "Version": "23.1.0"
   },
   {
     "Author": "Leonard Richardson",
@@ -68,7 +68,7 @@
     "Name": "jsonschema",
     "NoticeFile": "UNKNOWN",
     "NoticeText": "UNKNOWN",
-    "URL": "UNKNOWN",
+    "URL": "https://github.com/python-jsonschema/jsonschema",
     "Version": "4.17.3"
   },
   {
@@ -147,16 +147,16 @@
     "Author": "Python Packaging Authority",
     "Description": "Easily download, build, install, upgrade, and uninstall Python packages",
     "License": "MIT License",
-    "LicenseFile": "/Users/ruth/.pyenv/versions/3.10.9/envs/taulukko-3-10-9/lib/python3.10/site-packages/setuptools-65.6.3.dist-info/LICENSE",
-    "LicenseText": "Copyright Jason R. Coombs\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to\ndeal in the Software without restriction, including without limitation the\nrights to use, copy, modify, merge, publish, distribute, sublicense, and/or\nsell copies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS\nIN THE SOFTWARE.\n",
+    "LicenseFile": "/Users/ruth/.pyenv/versions/3.10.9/envs/taulukko-3-10-9/lib/python3.10/site-packages/setuptools-68.0.0.dist-info/LICENSE",
+    "LicenseText": "Permission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to\ndeal in the Software without restriction, including without limitation the\nrights to use, copy, modify, merge, publish, distribute, sublicense, and/or\nsell copies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS\nIN THE SOFTWARE.\n",
     "Name": "setuptools",
     "NoticeFile": "UNKNOWN",
     "NoticeText": "UNKNOWN",
     "URL": "https://github.com/pypa/setuptools",
-    "Version": "65.6.3"
+    "Version": "68.0.0"
   },
   {
-    "Author": "UNKNOWN",
+    "Author": "Isaac Muse <Isaac.Muse@gmail.com>",
     "Description": "A modern CSS selector implementation for Beautiful Soup.",
     "License": "MIT License",
     "LicenseFile": "/Users/ruth/.pyenv/versions/3.10.9/envs/taulukko-3-10-9/lib/python3.10/site-packages/soupsieve-2.3.2.post1.dist-info/license_files/LICENSE.md",
@@ -164,7 +164,7 @@
     "Name": "soupsieve",
     "NoticeFile": "UNKNOWN",
     "NoticeText": "UNKNOWN",
-    "URL": "UNKNOWN",
+    "URL": "https://github.com/facelessuser/soupsieve",
     "Version": "2.3.2.post1"
   },
   {

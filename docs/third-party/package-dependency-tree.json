@@ -75,7 +75,7 @@
                     {
                         "key": "attrs",
                         "package_name": "attrs",
-                        "installed_version": "22.2.0",
+                        "installed_version": "23.1.0",
                         "required_version": ">=17.4.0",
                         "dependencies": []
                     },
@@ -120,7 +120,7 @@
             {
                 "key": "setuptools",
                 "package_name": "setuptools",
-                "installed_version": "65.6.3",
+                "installed_version": "68.0.0",
                 "required_version": ">=38.3.0",
                 "dependencies": []
             },
@@ -303,7 +303,7 @@
             {
                 "key": "setuptools",
                 "package_name": "setuptools",
-                "installed_version": "65.6.3",
+                "installed_version": "68.0.0",
                 "required_version": ">=38.3.0",
                 "dependencies": []
             },

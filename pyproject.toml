@@ -15,9 +15,9 @@ classifiers = [
 ]
 keywords = ["developer-tools", "documentation-tools", "html", "markdown"]
 dependencies = [
-    "pytablereader >= 0.31.3",
-    "pytablewriter >= 0.64.2",
-    "typer >= 0.7.0",
+    "pytablereader >= 0.31.4",
+    "pytablewriter >= 1.0.0",
+    "typer >= 0.9.0",
 ]
 requires-python = ">=3.9"
 

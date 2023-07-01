@@ -11,6 +11,7 @@ Third party dependencies are documented in the folder [third-party](docs/third-p
 [![wheel](https://img.shields.io/pypi/wheel/taulukko.svg?style=flat)](https://pypi.python.org/pypi/taulukko/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/taulukko.svg?style=flat)](https://pypi.python.org/pypi/taulukko/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/taulukko.svg?style=flat)](https://pypi.python.org/pypi/taulukko/)
+[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/taulukko.svg?style=flat)](https://git.sr.ht/~sthagen/taulukko/log)
 
 ## Documentation
 

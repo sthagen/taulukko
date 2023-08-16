@@ -20,7 +20,7 @@
 <title>setuptools</title>
 <ellipse fill="none" stroke="black" cx="990.97" cy="-433.28" rx="50.03" ry="25.81"/>
 <text text-anchor="middle" x="990.97" y="-434.23" font-family="Times,serif" font-size="14.00">setuptools</text>
-<text text-anchor="middle" x="990.97" y="-419.98" font-family="Times,serif" font-size="14.00">68.0.0</text>
+<text text-anchor="middle" x="990.97" y="-419.98" font-family="Times,serif" font-size="14.00">68.1.0</text>
 </g>
 <!-- pytablereader&#45;&gt;setuptools -->
 <g id="edge1" class="edge">

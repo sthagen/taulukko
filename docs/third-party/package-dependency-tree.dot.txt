@@ -41,7 +41,7 @@ digraph {
 	referencing -> "rpds-py" [label=">=0.7.0"]
 	referencing -> attrs [label=">=22.2.0"]
 	referencing [label="referencing\n0.30.2"]
-	setuptools [label="setuptools\n68.0.0"]
+	setuptools [label="setuptools\n68.1.0"]
 	soupsieve [label="soupsieve\n2.4.1"]
 	tabledata -> dataproperty [label=">=0.54.2,<2"]
 	tabledata -> typepy [label=">=1.2.0,<2"]

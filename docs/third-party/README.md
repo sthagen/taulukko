@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/taulukko/blob/default/sbom/cdx.json) with SHA256 checksum ([a790d962 ...](https://git.sr.ht/~sthagen/taulukko/blob/default/sbom/cdx.json.sha256 "sha256:a790d96252b19314483d4dcbaf3486ab8748c1a7f96b39de6b9ec3965938fd81")).
-<!--[[[end]]] (checksum: b3b2191065ddafaffbf3c30300b89330)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/taulukko/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([fb89a186 ...](https://git.sr.ht/~sthagen/taulukko/blob/default/etc/sbom/cdx.json.sha256 "sha256:fb89a186cfd64a0a77096245ecdf34345035fbfb4541d147358042bab542a6d9")).
+<!--[[[end]]] (checksum: fde7fe04539f2ed890994b0966bc38a2)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -20,9 +20,23 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 ### Indirect Dependencies
 
 <!--[[[fill indirect_dependencies_table()]]]-->
-| Name | Version | License | Author | Description (from packaging data) |
-|:-----|:--------|:--------|:-------|:----------------------------------|
-<!--[[[end]]] (checksum: 8a87b89207db0be2864af66f9266660c)-->
+| Name                                                                 | Version                                                   | License                                                 | Author                                     | Description (from packaging data)                                                                               |
+|:---------------------------------------------------------------------|:----------------------------------------------------------|:--------------------------------------------------------|:-------------------------------------------|:----------------------------------------------------------------------------------------------------------------|
+| [DataProperty](https://github.com/thombashi/DataProperty)            | [1.0.1](https://pypi.org/project/DataProperty/1.0.1/)     | MIT License                                             | Tsuyoshi Hombashi                          | Python library for extract property from data.                                                                  |
+| [attrs](https://www.attrs.org/en/stable/changelog.html)              | [23.1.0](https://pypi.org/project/attrs/23.1.0/)          | MIT License                                             | Hynek Schlawack <hs@ox.cx>                 | Classes Without Boilerplate                                                                                     |
+| [beautifulsoup4](https://www.crummy.com/software/BeautifulSoup/bs4/) | [4.12.2](https://pypi.org/project/beautifulsoup4/4.12.2/) | MIT License                                             | Leonard Richardson <leonardr@segfault.org> | Screen-scraping library                                                                                         |
+| [chardet](https://github.com/chardet/chardet)                        | [5.2.0](https://pypi.org/project/chardet/5.2.0/)          | GNU Lesser General Public License v2 or later (LGPLv2+) | Mark Pilgrim                               | Universal encoding detector for Python 3                                                                        |
+| [click](https://palletsprojects.com/p/click/)                        | [8.1.6](https://pypi.org/project/click/8.1.6/)            | BSD License                                             | Pallets <contact@palletsprojects.com>      | Composable command line interface toolkit                                                                       |
+| [jsonschema](https://github.com/python-jsonschema/jsonschema)        | [4.19.0](https://pypi.org/project/jsonschema/4.19.0/)     | MIT License                                             | Julian Berman                              | An implementation of JSON Schema validation for Python                                                          |
+| [mbstrdecoder](https://github.com/thombashi/mbstrdecoder)            | [1.1.3](https://pypi.org/project/mbstrdecoder/1.1.3/)     | MIT License                                             | Tsuyoshi Hombashi                          | mbstrdecoder is a Python library for multi-byte character string decoder                                        |
+| [path](https://github.com/jaraco/path)                               | [16.7.1](https://pypi.org/project/path/16.7.1/)           | MIT License                                             | Jason Orendorff                            | A module wrapper for os.path                                                                                    |
+| [pathvalidate](https://github.com/thombashi/pathvalidate)            | [3.1.0](https://pypi.org/project/pathvalidate/3.1.0/)     | MIT License                                             | Tsuyoshi Hombashi                          | pathvalidate is a Python library to sanitize/validate a string such as filenames/file-paths/etc.                |
+| [setuptools](https://github.com/pypa/setuptools)                     | [68.2.2](https://pypi.org/project/setuptools/68.2.2/)     | MIT License                                             | Python Packaging Authority                 | Easily download, build, install, upgrade, and uninstall Python packages                                         |
+| [soupsieve](https://github.com/facelessuser/soupsieve)               | [2.4.1](https://pypi.org/project/soupsieve/2.4.1/)        | MIT License                                             | Isaac Muse <Isaac.Muse@gmail.com>          | A modern CSS selector implementation for Beautiful Soup.                                                        |
+| [tabledata](https://github.com/thombashi/tabledata)                  | [1.3.1](https://pypi.org/project/tabledata/1.3.1/)        | MIT License                                             | Tsuyoshi Hombashi                          | tabledata is a Python library to represent tabular data. Used for pytablewriter/pytablereader/SimpleSQLite/etc. |
+| [tcolorpy](https://github.com/thombashi/tcolorpy)                    | [0.1.3](https://pypi.org/project/tcolorpy/0.1.3/)         | MIT License                                             | Tsuyoshi Hombashi                          | tcolopy is a Python library to apply true color for terminal text.                                              |
+| [typepy](https://github.com/thombashi/typepy)                        | [1.3.2](https://pypi.org/project/typepy/1.3.2/)           | MIT License                                             | Tsuyoshi Hombashi                          | typepy is a Python library for variable type checker/validator/converter at a run time.                         |
+<!--[[[end]]] (checksum: af9538d9dec0688ac73fbf68cefadb29)-->
 
 ## Dependency Tree(s)
 

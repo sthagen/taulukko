@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/taulukko/blob/default/sbom/cdx.json) with SHA256 checksum ([82f372a5 ...](https://git.sr.ht/~sthagen/taulukko/blob/default/sbom/cdx.json.sha256 "sha256:82f372a5e220ce2e72b807ad7b858a423f360f05d215981b1adaffc1671c3dac")).
-<!--[[[end]]] (checksum: 198dcc720c0e81520c8bbc5a19d4ae2b)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/taulukko/blob/default/sbom/cdx.json) with SHA256 checksum ([a790d962 ...](https://git.sr.ht/~sthagen/taulukko/blob/default/sbom/cdx.json.sha256 "sha256:a790d96252b19314483d4dcbaf3486ab8748c1a7f96b39de6b9ec3965938fd81")).
+<!--[[[end]]] (checksum: b3b2191065ddafaffbf3c30300b89330)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -13,30 +13,16 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 | Name                                                        | Version                                                  | License     | Author            | Description (from packaging data)                                                                                                                                                                                                                                  |
 |:------------------------------------------------------------|:---------------------------------------------------------|:------------|:------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [pytablereader](https://github.com/thombashi/pytablereader) | [0.31.4](https://pypi.org/project/pytablereader/0.31.4/) | MIT License | Tsuyoshi Hombashi | pytablereader is a Python library to load structured table data from files/strings/URL with various data format: CSV / Excel / Google-Sheets / HTML / JSON / LDJSON / LTSV / Markdown / SQLite / TSV.                                                              |
-| [pytablewriter](https://github.com/thombashi/pytablewriter) | [1.1.0](https://pypi.org/project/pytablewriter/1.1.0/)   | MIT License | Tsuyoshi Hombashi | pytablewriter is a Python library to write a table in various formats: AsciiDoc / CSV / Elasticsearch / HTML / JavaScript / JSON / LaTeX / LDJSON / LTSV / Markdown / MediaWiki / NumPy / Excel / Pandas / Python / reStructuredText / SQLite / TOML / TSV / YAML. |
+| [pytablewriter](https://github.com/thombashi/pytablewriter) | [1.2.0](https://pypi.org/project/pytablewriter/1.2.0/)   | MIT License | Tsuyoshi Hombashi | pytablewriter is a Python library to write a table in various formats: AsciiDoc / CSV / Elasticsearch / HTML / JavaScript / JSON / LaTeX / LDJSON / LTSV / Markdown / MediaWiki / NumPy / Excel / Pandas / Python / reStructuredText / SQLite / TOML / TSV / YAML. |
 | [typer](https://github.com/tiangolo/typer)                  | [0.9.0](https://pypi.org/project/typer/0.9.0/)           | MIT License | Sebastián Ramírez | Typer, build great CLIs. Easy to code. Based on Python type hints.                                                                                                                                                                                                 |
-<!--[[[end]]] (checksum: b7c71bf1cc3122cb8606d168be7c57c4)-->
+<!--[[[end]]] (checksum: 86eef61ebc4c9efd13e3c854268e2613)-->
 
 ### Indirect Dependencies
 
 <!--[[[fill indirect_dependencies_table()]]]-->
-| Name                                                                 | Version                                                   | License                                                 | Author                                     | Description (from packaging data)                                                                               |
-|:---------------------------------------------------------------------|:----------------------------------------------------------|:--------------------------------------------------------|:-------------------------------------------|:----------------------------------------------------------------------------------------------------------------|
-| [DataProperty](https://github.com/thombashi/DataProperty)            | [1.0.1](https://pypi.org/project/DataProperty/1.0.1/)     | MIT License                                             | Tsuyoshi Hombashi                          | Python library for extract property from data.                                                                  |
-| [attrs](https://www.attrs.org/en/stable/changelog.html)              | [23.1.0](https://pypi.org/project/attrs/23.1.0/)          | MIT License                                             | Hynek Schlawack <hs@ox.cx>                 | Classes Without Boilerplate                                                                                     |
-| [beautifulsoup4](https://www.crummy.com/software/BeautifulSoup/bs4/) | [4.12.2](https://pypi.org/project/beautifulsoup4/4.12.2/) | MIT License                                             | Leonard Richardson <leonardr@segfault.org> | Screen-scraping library                                                                                         |
-| [chardet](https://github.com/chardet/chardet)                        | [5.2.0](https://pypi.org/project/chardet/5.2.0/)          | GNU Lesser General Public License v2 or later (LGPLv2+) | Mark Pilgrim                               | Universal encoding detector for Python 3                                                                        |
-| [click](https://palletsprojects.com/p/click/)                        | [8.1.6](https://pypi.org/project/click/8.1.6/)            | BSD License                                             | UNKNOWN                                    | Composable command line interface toolkit                                                                       |
-| [jsonschema](https://github.com/python-jsonschema/jsonschema)        | [4.19.0](https://pypi.org/project/jsonschema/4.19.0/)     | MIT License                                             | Julian Berman                              | An implementation of JSON Schema validation for Python                                                          |
-| [mbstrdecoder](https://github.com/thombashi/mbstrdecoder)            | [1.1.3](https://pypi.org/project/mbstrdecoder/1.1.3/)     | MIT License                                             | Tsuyoshi Hombashi                          | mbstrdecoder is a Python library for multi-byte character string decoder                                        |
-| [path](https://github.com/jaraco/path)                               | [16.7.1](https://pypi.org/project/path/16.7.1/)           | MIT License                                             | Jason Orendorff                            | A module wrapper for os.path                                                                                    |
-| [pathvalidate](https://github.com/thombashi/pathvalidate)            | [3.1.0](https://pypi.org/project/pathvalidate/3.1.0/)     | MIT License                                             | Tsuyoshi Hombashi                          | pathvalidate is a Python library to sanitize/validate a string such as filenames/file-paths/etc.                |
-| [setuptools](https://github.com/pypa/setuptools)                     | [68.2.2](https://pypi.org/project/setuptools/68.2.2/)     | MIT License                                             | Python Packaging Authority                 | Easily download, build, install, upgrade, and uninstall Python packages                                         |
-| [soupsieve](https://github.com/facelessuser/soupsieve)               | [2.4.1](https://pypi.org/project/soupsieve/2.4.1/)        | MIT License                                             | Isaac Muse <Isaac.Muse@gmail.com>          | A modern CSS selector implementation for Beautiful Soup.                                                        |
-| [tabledata](https://github.com/thombashi/tabledata)                  | [1.3.1](https://pypi.org/project/tabledata/1.3.1/)        | MIT License                                             | Tsuyoshi Hombashi                          | tabledata is a Python library to represent tabular data. Used for pytablewriter/pytablereader/SimpleSQLite/etc. |
-| [tcolorpy](https://github.com/thombashi/tcolorpy)                    | [0.1.3](https://pypi.org/project/tcolorpy/0.1.3/)         | MIT License                                             | Tsuyoshi Hombashi                          | tcolopy is a Python library to apply true color for terminal text.                                              |
-| [typepy](https://github.com/thombashi/typepy)                        | [1.3.1](https://pypi.org/project/typepy/1.3.1/)           | MIT License                                             | Tsuyoshi Hombashi                          | typepy is a Python library for variable type checker/validator/converter at a run time.                         |
-<!--[[[end]]] (checksum: b17df9b402f9dedd9a1b586090a616ed)-->
+| Name | Version | License | Author | Description (from packaging data) |
+|:-----|:--------|:--------|:-------|:----------------------------------|
+<!--[[[end]]] (checksum: 8a87b89207db0be2864af66f9266660c)-->
 
 ## Dependency Tree(s)
 
@@ -58,7 +44,7 @@ pytablereader==0.31.4
 ├── DataProperty [required: >=0.54.2,<2, installed: 1.0.1]
 │   ├── mbstrdecoder [required: >=1.0.0,<2, installed: 1.1.3]
 │   │   └── chardet [required: >=3.0.4,<6, installed: 5.2.0]
-│   └── typepy [required: >=1.2.0,<2, installed: 1.3.1]
+│   └── typepy [required: >=1.2.0,<2, installed: 1.3.2]
 │       └── mbstrdecoder [required: >=1.0.0,<2, installed: 1.1.3]
 │           └── chardet [required: >=3.0.4,<6, installed: 5.2.0]
 ├── jsonschema [required: >=2.5.1,<5, installed: 4.19.0]
@@ -80,20 +66,20 @@ pytablereader==0.31.4
 │   ├── DataProperty [required: >=0.54.2,<2, installed: 1.0.1]
 │   │   ├── mbstrdecoder [required: >=1.0.0,<2, installed: 1.1.3]
 │   │   │   └── chardet [required: >=3.0.4,<6, installed: 5.2.0]
-│   │   └── typepy [required: >=1.2.0,<2, installed: 1.3.1]
+│   │   └── typepy [required: >=1.2.0,<2, installed: 1.3.2]
 │   │       └── mbstrdecoder [required: >=1.0.0,<2, installed: 1.1.3]
 │   │           └── chardet [required: >=3.0.4,<6, installed: 5.2.0]
-│   └── typepy [required: >=1.2.0,<2, installed: 1.3.1]
+│   └── typepy [required: >=1.2.0,<2, installed: 1.3.2]
 │       └── mbstrdecoder [required: >=1.0.0,<2, installed: 1.1.3]
 │           └── chardet [required: >=3.0.4,<6, installed: 5.2.0]
-└── typepy [required: >=1.2.0,<2, installed: 1.3.1]
+└── typepy [required: >=1.2.0,<2, installed: 1.3.2]
     └── mbstrdecoder [required: >=1.0.0,<2, installed: 1.1.3]
         └── chardet [required: >=3.0.4,<6, installed: 5.2.0]
-pytablewriter==1.1.0
+pytablewriter==1.2.0
 ├── DataProperty [required: >=1.0.1,<2, installed: 1.0.1]
 │   ├── mbstrdecoder [required: >=1.0.0,<2, installed: 1.1.3]
 │   │   └── chardet [required: >=3.0.4,<6, installed: 5.2.0]
-│   └── typepy [required: >=1.2.0,<2, installed: 1.3.1]
+│   └── typepy [required: >=1.2.0,<2, installed: 1.3.2]
 │       └── mbstrdecoder [required: >=1.0.0,<2, installed: 1.1.3]
 │           └── chardet [required: >=3.0.4,<6, installed: 5.2.0]
 ├── mbstrdecoder [required: >=1.0.0,<2, installed: 1.1.3]
@@ -104,18 +90,18 @@ pytablewriter==1.1.0
 │   ├── DataProperty [required: >=0.54.2,<2, installed: 1.0.1]
 │   │   ├── mbstrdecoder [required: >=1.0.0,<2, installed: 1.1.3]
 │   │   │   └── chardet [required: >=3.0.4,<6, installed: 5.2.0]
-│   │   └── typepy [required: >=1.2.0,<2, installed: 1.3.1]
+│   │   └── typepy [required: >=1.2.0,<2, installed: 1.3.2]
 │   │       └── mbstrdecoder [required: >=1.0.0,<2, installed: 1.1.3]
 │   │           └── chardet [required: >=3.0.4,<6, installed: 5.2.0]
-│   └── typepy [required: >=1.2.0,<2, installed: 1.3.1]
+│   └── typepy [required: >=1.2.0,<2, installed: 1.3.2]
 │       └── mbstrdecoder [required: >=1.0.0,<2, installed: 1.1.3]
 │           └── chardet [required: >=3.0.4,<6, installed: 5.2.0]
 ├── tcolorpy [required: >=0.0.5,<1, installed: 0.1.3]
-└── typepy [required: >=1.2.0,<2, installed: 1.3.1]
+└── typepy [required: >=1.3.2,<2, installed: 1.3.2]
     └── mbstrdecoder [required: >=1.0.0,<2, installed: 1.1.3]
         └── chardet [required: >=3.0.4,<6, installed: 5.2.0]
 typer==0.9.0
 ├── click [required: >=7.1.1,<9.0.0, installed: 8.1.6]
 └── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]
 ````
-<!--[[[end]]] (checksum: f29b10fb14ea68f97c179e553170005e)-->
+<!--[[[end]]] (checksum: 615ee470bfce691d072a4e9f7b1a78f9)-->

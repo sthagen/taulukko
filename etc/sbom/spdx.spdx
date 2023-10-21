@@ -1,6 +1,6 @@
 SPDXVersion: SPDX-2.3
 DataLicense: CC0-1.0
-DocumentNamespace: https://cyclonedx/c405810d-4fb3-420d-a367-8ceedec08409_1
+DocumentNamespace: https://cyclonedx/2e64f133-f12b-4942-a432-bf9351d1882b_1
 DocumentName: From-Cyclone-DX
 SPDXID: SPDXRef-DOCUMENT
 
@@ -8,23 +8,23 @@ SPDXID: SPDXRef-DOCUMENT
 Creator: Tool: CycloneDX:cyclonedx-bom-3.11.2
 Creator: Tool: CycloneDX:cyclonedx-python-lib-3.1.5
 Creator: Tool: CycloneToSpdx-0.1.4
-Created: 2023-09-24T11:08:45Z
+Created: 2023-10-08T19:54:20Z
 CreatorComment: <text>Converted from CycloneDX spec version 1.4</text>
-LicenseListVersion: 3.21
+LicenseListVersion: 3.22
 ## Annotations
 Annotator: Tool: CycloneToSpdx
-AnnotationDate: 2023-09-24T11:08:47Z
+AnnotationDate: 2023-10-08T19:54:22Z
 AnnotationComment: <text>MISSING_CDX_PROPERTY:extensions={}</text>
 AnnotationType: OTHER
 SPDXREF: SPDXRef-DOCUMENT
 ## Relationships
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-06082ff7-84af-4667-a194-f0d305c339e3
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-128590c9-0089-4edf-a3cc-15d991b4ad32
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c0e044cd-03a1-4652-9c67-5c1616f70f30
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0928a291-4c5c-4044-9cbf-e5f295cab4d3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2a0b12f7-3a7d-4746-9599-9ef80c57cff0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b39ad0e6-0cf6-4ffc-9070-761564e4bd16
 
 ## Package Information
 PackageName: pytablereader
-SPDXID: SPDXRef-128590c9-0089-4edf-a3cc-15d991b4ad32
+SPDXID: SPDXRef-2a0b12f7-3a7d-4746-9599-9ef80c57cff0
 PackageVersion: 0.31.4
 PackageDownloadLocation: NOASSERTION
 PrimaryPackagePurpose: LIBRARY
@@ -34,33 +34,33 @@ PackageCopyrightText: NOASSERTION
 ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pytablereader@0.31.4
 ## Annotations
 Annotator: Tool: CycloneToSpdx
-AnnotationDate: 2023-09-24T11:08:47Z
+AnnotationDate: 2023-10-08T19:54:22Z
 AnnotationComment: <text>MISSING_CDX_PROPERTY:componentType="LIBRARY"</text>
 AnnotationType: OTHER
-SPDXREF: SPDXRef-128590c9-0089-4edf-a3cc-15d991b4ad32
+SPDXREF: SPDXRef-2a0b12f7-3a7d-4746-9599-9ef80c57cff0
 FilesAnalyzed: false
 
 ## Package Information
 PackageName: pytablewriter
-SPDXID: SPDXRef-06082ff7-84af-4667-a194-f0d305c339e3
-PackageVersion: 1.1.0
+SPDXID: SPDXRef-b39ad0e6-0cf6-4ffc-9070-761564e4bd16
+PackageVersion: 1.2.0
 PackageDownloadLocation: NOASSERTION
 PrimaryPackagePurpose: LIBRARY
 PackageLicenseConcluded: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pytablewriter@1.1.0
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pytablewriter@1.2.0
 ## Annotations
 Annotator: Tool: CycloneToSpdx
-AnnotationDate: 2023-09-24T11:08:47Z
+AnnotationDate: 2023-10-08T19:54:22Z
 AnnotationComment: <text>MISSING_CDX_PROPERTY:componentType="LIBRARY"</text>
 AnnotationType: OTHER
-SPDXREF: SPDXRef-06082ff7-84af-4667-a194-f0d305c339e3
+SPDXREF: SPDXRef-b39ad0e6-0cf6-4ffc-9070-761564e4bd16
 FilesAnalyzed: false
 
 ## Package Information
 PackageName: typer
-SPDXID: SPDXRef-c0e044cd-03a1-4652-9c67-5c1616f70f30
+SPDXID: SPDXRef-0928a291-4c5c-4044-9cbf-e5f295cab4d3
 PackageVersion: 0.9.0
 PackageDownloadLocation: NOASSERTION
 PrimaryPackagePurpose: LIBRARY
@@ -70,10 +70,10 @@ PackageCopyrightText: NOASSERTION
 ExternalRef: PACKAGE-MANAGER purl pkg:pypi/typer@0.9.0
 ## Annotations
 Annotator: Tool: CycloneToSpdx
-AnnotationDate: 2023-09-24T11:08:47Z
+AnnotationDate: 2023-10-08T19:54:22Z
 AnnotationComment: <text>MISSING_CDX_PROPERTY:componentType="LIBRARY"</text>
 AnnotationType: OTHER
-SPDXREF: SPDXRef-c0e044cd-03a1-4652-9c67-5c1616f70f30
+SPDXREF: SPDXRef-0928a291-4c5c-4044-9cbf-e5f295cab4d3
 FilesAnalyzed: false
 
 

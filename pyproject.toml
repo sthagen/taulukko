@@ -1,6 +1,10 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "taulukko"
-version = "2022.11.27"
+version = "2023.10.21"
 description = "Table (Finnish Taulukko) glued together to transform into hands-free living."
 readme = "README.md"
 authors = [{ name = "Stefan Hagen", email = "stefan@hagen.link" }]

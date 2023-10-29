@@ -2,18 +2,15 @@
 
 Table (Finnish Taulukko) glued together to transform into hands-free living.
 
-[License: MIT](https://git.sr.ht/~sthagen/taulukko/tree/default/item/LICENSE) |
-[Country of origin: Switzerland](https://git.sr.ht/~sthagen/taulukko/tree/default/item/COUNTRY-OF-ORIGIN) |
-[Export control classification number(ECCN): EAR99](https://git.sr.ht/~sthagen/taulukko/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
+[![license](badges/license-spdx-mit.svg)](https://git.sr.ht/~sthagen/taulukko/tree/default/item/LICENSE)
+[![Country of Origin](badges/country-of-origin-name-switzerland-neutral.svg)](https://git.sr.ht/~sthagen/taulukko/tree/default/item/COUNTRY-OF-ORIGIN)
+[![Export Classification Control Number (ECCN)](badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/taulukko/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
+[![Configuration](badges/configuration-sbom.svg)](third-party/index.html)
 
-Third party dependencies are documented in the folder [third-party](third-party/README.md).
-
-[![version](https://img.shields.io/pypi/v/taulukko.svg?style=flat)](https://pypi.python.org/pypi/taulukko/)
-[![downloads](https://static.pepy.tech/badge/taulukko/month)](https://pepy.tech/project/taulukko)
-[![wheel](https://img.shields.io/pypi/wheel/taulukko.svg?style=flat)](https://pypi.python.org/pypi/taulukko/)
-[![supported-versions](https://img.shields.io/pypi/pyversions/taulukko.svg?style=flat)](https://pypi.python.org/pypi/taulukko/)
-[![supported-implementations](https://img.shields.io/pypi/implementation/taulukko.svg?style=flat)](https://pypi.python.org/pypi/taulukko/)
-[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/taulukko.svg?style=flat)](https://git.sr.ht/~sthagen/taulukko/log)
+[![Version](https://img.shields.io/pypi/v/taulukko.svg?style=flat)](https://pypi.python.org/pypi/taulukko/)
+[![Downloads](https://static.pepy.tech/badge/taulukko/month)](https://pepy.tech/project/taulukko)
+[![Supported Versions](https://img.shields.io/pypi/pyversions/taulukko.svg?style=flat)](https://pypi.python.org/pypi/taulukko/)
+[![Maintenance Status](https://img.shields.io/github/commit-activity/y/sthagen/taulukko.svg?style=flat)](https://git.sr.ht/~sthagen/taulukko/log)
 
 ## Bug Tracker
 

@@ -7,7 +7,7 @@ Table (Finnish Taulukko) glued together to transform into hands-free living.
 [![Export Classification Control Number (ECCN)](docs/badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/taulukko/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
 [![Configuration](docs/badges/configuration-sbom.svg)](https://git.sr.ht/~sthagen/taulukko/tree/default/item/docs/third-party/README.md)
 
-[![Version](https://img.shields.io/pypi/v/taulukko.svg?style=flat)](https://pypi.python.org/pypi/taulukko/)
+[![Version](docs/badges/latest-release.svg)](https://pypi.python.org/pypi/taulukko/)
 [![Downloads](docs/badges/downloads-per-month.svg)](https://pepy.tech/project/taulukko)
 [![Supported Versions](https://img.shields.io/pypi/pyversions/taulukko.svg?style=flat)](https://pypi.python.org/pypi/taulukko/)
 [![Maintenance Status](docs/badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/taulukko/log)

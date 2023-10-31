@@ -9,7 +9,7 @@ Table (Finnish Taulukko) glued together to transform into hands-free living.
 
 [![Version](docs/badges/latest-release.svg)](https://pypi.python.org/pypi/taulukko/)
 [![Downloads](docs/badges/downloads-per-month.svg)](https://pepy.tech/project/taulukko)
-[![Supported Versions](https://img.shields.io/pypi/pyversions/taulukko.svg?style=flat)](https://pypi.python.org/pypi/taulukko/)
+[![Python](docs/badges/python-versions.svg)](https://pypi.python.org/pypi/taulukko/)
 [![Maintenance Status](docs/badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/taulukko/log)
 
 ## Documentation

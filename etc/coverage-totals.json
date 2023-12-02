@@ -1,7 +1,7 @@
 {
   "taulukko": {
-    "version": "7.3.2",
-    "timestamp": "2023-12-02T15:36:17.529535",
+    "coverage_tool_version": "7.3.2",
+    "timestamp": "2023-12-02 16:32:34 +00:00",
     "branch_coverage": true,
     "show_contexts": true,
     "covered_lines": 103,
@@ -13,6 +13,22 @@
     "num_branches": 20,
     "num_partial_branches": 1,
     "covered_branches": 19,
-    "missing_branches": 1
+    "missing_branches": 1,
+    "node_id": "c79891e5-aabf-3a83-95b9-588edcd8327f",
+    "nfiles": 3,
+    "files": [
+      "taulukko/__init__.py",
+      "taulukko/cli.py",
+      "taulukko/taulukko.py"
+    ],
+    "blake3": "0720baf08ae41c8cf3fd6bccde9a115d9f150643bbd4f02dfce1309bbdf23b1a",
+    "blake2": "3be672251d7bfa851efd10453d4ecd0d30f3e771f3a1cd99de70bd2cca014c441097d8c95d2776ef5c6c46ee0977a667b0c6822e9cb32ab5a13c072cbca17dcb",
+    "sha512": "fa89a8f6b4d00d34e26a29331d4c41f5c7607a8d4472d4094e029e3c3ddb0609adf7695c240aa572f2cc667410537d36a9ab9b5d4a26f15f49820a68024673d4",
+    "sha384": "d4c7af8aa184b0dfd4392c76f4c1c8896d48e43fe861bbc1a6f4fb04f4f12b3a1396d6708006fa47073c2300de4e5f05",
+    "sha256": "a727bffa131b52d654d8eb76f8e2e23011ac455def9fbfc81eac8094d910c423",
+    "sha1": "d32a12f7f0fdaadffc72af8714afbc85c8fca776",
+    "md5": "9a182842e6209635cf3d676861cc36a8",
+    "python_version": "3.10.12",
+    "entropy": 5.165872
   }
 }

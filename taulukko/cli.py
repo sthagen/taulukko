@@ -1,4 +1,5 @@
 """Commandline API gateway for taulukko."""
+
 import sys
 
 import typer

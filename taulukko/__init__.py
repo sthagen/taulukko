@@ -1,4 +1,5 @@
 """Table (Finnish Taulukko) glued together to transform into hands-free living."""
+
 import datetime as dti
 import logging
 import os

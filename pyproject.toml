@@ -16,13 +16,16 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Programming Language :: Python :: 3.9",
 ]
 keywords = ["developer-tools", "documentation-tools", "html", "markdown"]
 dependencies = [
     "pytablereader >= 0.31.4",
-    "pytablewriter >= 1.2.0",
-    "typer >= 0.9.0",
+    "pytablewriter >= 1.2.1",
+    "typer >= 0.20.0",
 ]
 requires-python = ">=3.9"
 
@@ -46,7 +49,7 @@ exclude = ["test*"]
 [tool.black]
 line-length = 120
 skip-string-normalization = true
-target-version = [ "py39", "py310", "py311", "py312" ]
+target-version = [ "py39", "py310", "py311", "py312", "py313", "py314" ]
 
 [tool.coverage.run]
 branch = true
@@ -61,10 +64,8 @@ strict = true
 implicit_reexport = true
 
 [tool.pytest]
-testpaths = "test"
-filterwarnings = "error"
-
-[tool.pytest.ini_options]
+testpaths = ["test"]
+filterwarnings = ["error"]
 asyncio_default_fixture_loop_scope = "function"
 
 [tool.ruff]

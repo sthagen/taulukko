@@ -25,4 +25,4 @@ def test_extract_non_existing_html(capsys):
     in_path = pathlib.Path('does', 'not', 'exist', 'hypothetical.html')
     result = runner.invoke(app, ['extract', str(in_path), '--input', str(in_path)])
     assert result.exit_code == 1
-    assert 'is no file' in result.stdout
+    assert 'is no file' in result.stderr
